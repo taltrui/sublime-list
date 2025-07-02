@@ -151,7 +151,7 @@ VITE_API_URL=http://54.198.139.161/api
 - Lazy loading of video embeds (YouTube, Vimeo, TikTok, Loom, SoundCloud)
 - I added a thumbnail overlay to prevent initial video loading, which improves performance and user experience.
 
-## 🚧 Challenges Faced & Solutions
+## Challenges Faced & Solutions
 
 ### 1. Video Platform Integration
 
@@ -163,7 +163,7 @@ VITE_API_URL=http://54.198.139.161/api
 **Challenge**: Videos were loading immediately, causing performance issues and stuttering in the UI.
 **Solution**: Implemented a thumbnail overlay that loads the video only when clicked.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Given more time, I would implement:
 
