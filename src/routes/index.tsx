@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import CardList from "../components/cardList";
+import CardList from "../components/CardList";
+import ErrorBoundary from "../components/ErrorBoundary";
 import { cardsQueryOptions, useCards } from "../queries/useCards";
 
 export const Route = createFileRoute("/")({
@@ -9,6 +10,7 @@ export const Route = createFileRoute("/")({
 			cardsQueryOptions({ pageSize: 25 }),
 		);
 	},
+	errorComponent: () => <ErrorBoundary />,
 });
 
 function Home() {

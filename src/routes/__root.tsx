@@ -8,6 +8,7 @@ import {
 	Scripts,
 } from "@tanstack/react-router";
 import type { ReactNode } from "react";
+import ErrorBoundary from "../components/ErrorBoundary";
 import NavigationLoader from "../components/ui/NavigationLoader";
 
 import "../styles.css";
@@ -30,6 +31,7 @@ export const Route = createRootRouteWithContext<{
 		],
 	}),
 	component: RootComponent,
+	errorComponent: () => <ErrorBoundary />,
 });
 
 function RootComponent() {

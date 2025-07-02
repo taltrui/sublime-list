@@ -1,5 +1,5 @@
 import { useNavigate } from "@tanstack/react-router";
-import CardContent from "./cardContent";
+import CardContent from "./CardContent";
 
 function CardListItem({ card }) {
 	const navigate = useNavigate();

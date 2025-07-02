@@ -1,6 +1,8 @@
 import { createFileRoute, HeadContent, Link } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
-import CardList from "../../components/cardList";
+
+import CardList from "../../components/CardList";
+import ErrorBoundary from "../../components/ErrorBoundary";
 import { cardQueryOptions, useCard } from "../../queries/useCard";
 import {
 	relatedCardsQueryOptions,
@@ -51,6 +53,7 @@ export const Route = createFileRoute("/card/$id")({
 		}
 		return null;
 	},
+	errorComponent: () => <ErrorBoundary />,
 });
 
 function RouteComponent() {
