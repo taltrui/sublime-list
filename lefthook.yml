@@ -1,5 +1,6 @@
 pre-commit:
   commands:
     lint:
+      glob: "*.{js,ts,jsx,tsx}"
       run: pnpm run check
       fail_text: "Linting failed. Please fix issues before committing."
