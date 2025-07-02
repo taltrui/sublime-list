@@ -156,11 +156,13 @@ VITE_API_URL=http://54.198.139.161/api
 ### 1. Video Platform Integration
 
 **Challenge**: There were multiple video platforms with different embed requirements
+
 **Solution**: I created a unified video component with platform-specific handlers and lazy loading strategies
 
 ### 2. Initial video loading
 
 **Challenge**: Videos were loading immediately, causing performance issues and stuttering in the UI.
+
 **Solution**: Implemented a thumbnail overlay that loads the video only when clicked.
 
 ## Future Improvements
