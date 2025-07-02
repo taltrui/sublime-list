@@ -2,8 +2,8 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 import { useEffect, useRef } from "react";
 import type { CardData } from "../../types/card";
 import InfiniteScrollLoader from "../ui/InfiniteScrollLoader";
-import CardContent from "./components/cardContent";
-import CardListItem from "./components/cardListItem";
+import CardContent from "./components/CardContent";
+import CardListItem from "./components/CardListItem";
 
 function CardList({
 	data,
