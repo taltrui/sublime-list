@@ -29,6 +29,7 @@ build/
 .vinxi/
 .nitro/
 .wrangler/
+.tanstack/
 
 # Editor directories and files
 .vscode/

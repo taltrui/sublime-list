@@ -1,0 +1,5 @@
+pre-commit:
+  commands:
+    lint:
+      run: pnpm run check
+      fail_text: "Linting failed. Please fix issues before committing."

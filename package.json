@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
     "dev": "vite dev",
-    "build": "vite build"
+    "build": "vite build",
+    "prepare": "lefthook install"
   },
   "type": "module",
   "keywords": [],
@@ -29,14 +33,23 @@
     "zod": "^3.25.67"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.0.6",
     "@tailwindcss/vite": "^4.1.11",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "@vitest/ui": "3.2.4",
     "autoprefixer": "^10.4.21",
+    "jsdom": "^26.1.0",
+    "lefthook": "^1.11.14",
     "postcss": "^8.5.6",
     "sass": "^1.89.2",
     "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
   }
 }
