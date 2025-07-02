@@ -53,9 +53,8 @@ function CardList({
 	return (
 		<div
 			ref={parentRef}
-			className="bg-gray-100"
+			className="bg-gray-100 p-4"
 			style={{
-				padding: `24px 0px`,
 				height: `calc(100vh - ${initialCard ? 56 : 0}px)`,
 				width: `100%`,
 				overflow: "auto",
