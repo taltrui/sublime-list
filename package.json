@@ -1,0 +1,42 @@
+{
+  "name": "sublime-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@icons-pack/react-simple-icons": "^13.3.0",
+    "@tanstack/react-query": "^5.81.5",
+    "@tanstack/react-router": "^1.122.0",
+    "@tanstack/react-router-with-query": "^1.122.0",
+    "@tanstack/react-start": "^1.122.0",
+    "@tanstack/react-virtual": "^3.13.12",
+    "axios": "^1.10.0",
+    "lucide-react": "^0.525.0",
+    "motion": "^12.19.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-tooltip": "^5.29.1",
+    "vite": "^7.0.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "sass": "^1.89.2",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
